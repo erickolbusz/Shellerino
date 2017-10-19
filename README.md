@@ -2,23 +2,23 @@
 by Aaron Mortenson, Eric Kolbusz
 
 Features:
-	- Forks and executes commands
-	- Ignores extra whitespace in input
-	- Allows for the input of several commands at once with ;
-	- Redirects with <, >, and >>
-	- Changes directories
-	- Hashes the current directory for a gentle donger learning curve
-	- Exits regularly
+  - Forks and executes commands
+  - Ignores extra whitespace in input
+  - Allows for the input of several commands at once with ;
+  - Redirects with <, >, and >>
+  - Changes directories
+  - Hashes the current directory for a gentle donger learning curve
+  - Exits regularly
 
 Attempted:
-	- History, which might have eventually led to up arrow shindigs
-	- Pipes
+  - History, which might have eventually led to up arrow shindigs
+  - Pipes
 
 Bugs:
-	- Certain donger-hating computers may print the current directory hash after the colon, making input seem really faulty and ruining the whole appeal of a 128 donger hash table
+  - Certain donger-hating computers may print the current directory hash after the colon, making input seem really faulty and ruining the whole appeal of a 128 donger hash table
 
 Files & Function Headers:
-	(shell.c is our only file other than makefile)
+  (shell.c is our only file other than makefile)
 
 - char ** parse_string(char * s, char * parser)
   - returns an array of strings
